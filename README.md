@@ -111,8 +111,8 @@ puedes ayudar de varias formas:
 Para contribuir mediante Pull Request:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
+git clone https://github.com/Tmuirsuelen27-pixel/Web__Scanner.git
+cd Web__Scanner
 git checkout -b mejora/nombre-de-la-mejora
 
 # Realiza cambios y prueba el programa
