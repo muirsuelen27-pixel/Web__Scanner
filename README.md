@@ -132,36 +132,4 @@ Las ideas especialmente útiles incluyen pruebas automatizadas, reducción de
 falsos positivos, soporte para más plataformas, mejores firmas tecnológicas,
 análisis TLS más preciso y reportes más claros.
 
-### Comunidad
-
-No hay garantía de que un repositorio nuevo reciba atención inmediata, pero un
-proyecto público, con documentación clara, ejemplos reproducibles y issues
-bien descritos tiene muchas más posibilidades de ser descubierto y recibir
-feedback. Comparte el enlace en comunidades de Python, seguridad defensiva y
-CTF, siempre presentándolo como una herramienta para auditorías autorizadas.
-
-### Publicar en GitHub
-
-Instala Git y configura tu identidad una sola vez:
-
-```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu-correo@example.com"
-```
-
-Desde la carpeta del proyecto:
-
-```bash
-git init
-git add README.md web_scanner.py .gitignore
-git commit -m "Publica auditor de seguridad web defensivo"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-git push -u origin main
-```
-
-Antes de publicar, comprueba que no incluyes `.venv/`, `__pycache__/`, logs,
-tokens, contraseñas, cookies, resultados privados ni archivos con datos de
-clientes. Crea primero un repositorio vacío en GitHub y sustituye la URL del
-comando `git remote add origin` por la de tu repositorio.
 
