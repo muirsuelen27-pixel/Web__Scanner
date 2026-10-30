@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Consulta la versión anunciada y las instrucciones de actualización de Web Scanner.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Actualizaciones — Web Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 3 35 11v18L20 37 5 29V11z' fill='none' stroke='%234bd8e8' stroke-width='2'/%3E%3Cpath d='M13 20h14M20 13v14' stroke='%234bd8e8' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Web Scanner, inicio"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3 35 11v18L20 37 5 29V11z"></path><path d="M13 20h14M20 13v14"></path><circle cx="20" cy="20" r="3"></circle></svg><span>WEB SCANNER</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menú de navegación"><span></span><span></span></button>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navegación principal">
+        <ul><li><a href="index.html">Inicio</a></li><li><a href="index.html#caracteristicas">Características</a></li><li><a href="descargas.html">Descargas</a></li><li><a href="documentacion.html">Documentación</a></li><li><a href="actualizaciones.html" aria-current="page">Actualizaciones</a></li><li><a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a></li></ul>
+        <a class="button button-small button-primary nav-download" href="descargas.html">Descargar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main container" id="contenido">
+    <header class="page-intro reveal">
+      <p class="eyebrow">VERSIONES Y CAMBIOS</p>
+      <h1>Actualizaciones</h1>
+      <p>Información de publicación clara: sin fechas estimadas presentadas como lanzamientos ni versiones anteriores inventadas.</p>
+    </header>
+
+    <section aria-labelledby="release-title">
+      <article class="release-card reveal">
+        <div class="release-topline"><span class="release-badge">VERSIÓN ANUNCIADA</span><span class="release-date"><span aria-hidden="true"></span> Próximamente</span></div>
+        <!-- Sustituye la versión y la fecha solo cuando exista una publicación oficial. -->
+        <h2 id="release-title">Web Scanner <span>v2.0.0-beta.1</span></h2>
+        <p class="release-description">Nueva arquitectura de escritorio con interfaz Qt, motor Python, historial local, informes JSON/PDF, temas, idiomas y asistencia IA opcional.</p>
+        <p class="release-note">La fecha se actualizará cuando la versión esté publicada y disponible para descarga.</p>
+      </article>
+    </section>
+
+    <section class="content-section" aria-labelledby="improvements-title">
+      <div class="section-heading reveal"><p class="eyebrow">CAMBIOS DESTACADOS</p><h2 id="improvements-title">Mejoras incluidas en esta versión</h2></div>
+      <ul class="change-list">
+        <li class="reveal"><span class="change-index">01</span><span><strong>Interfaz de escritorio moderna</strong><small>Experiencia de escritorio Qt para revisar análisis y resultados.</small></span></li>
+        <li class="reveal"><span class="change-index">02</span><span><strong>Módulos defensivos más claros</strong><small>Comprobaciones organizadas por DNS, HTTP, Headers y TLS.</small></span></li>
+        <li class="reveal"><span class="change-index">03</span><span><strong>Informes JSON y PDF</strong><small>Exportación estructurada y generación opcional de PDF.</small></span></li>
+        <li class="reveal"><span class="change-index">04</span><span><strong>Historial local</strong><small>Acceso a informes guardados en el equipo.</small></span></li>
+        <li class="reveal"><span class="change-index">05</span><span><strong>Puente entre Qt y Python</strong><small>La interfaz nativa se comunica con el motor Python local.</small></span></li>
+        <li class="reveal"><span class="change-index">06</span><span><strong>Instalación y documentación mejoradas</strong><small>Instrucciones para comenzar y comprender los resultados.</small></span></li>
+      </ul>
+    </section>
+
+    <section class="content-section update-instructions" aria-labelledby="update-title">
+      <div class="section-heading reveal"><p class="eyebrow">MANTENIMIENTO</p><h2 id="update-title">Actualizar desde código</h2><p>Desde una copia clonada del repositorio, abre una terminal en la carpeta <code>scanner</code>. El comando <code>git pull</code> actualiza el repositorio y la instalación editable aplica los extras opcionales.</p></div>
+      <div class="code-card reveal">
+        <div class="code-heading"><h3>Terminal</h3><button class="copy-button" type="button" data-copy-command data-copy-target="update-command"><span aria-hidden="true">⧉</span> Copiar comando</button></div>
+        <pre><code id="update-command">git pull
+python -m pip install -e ".[reports,dev]"</code></pre>
+        <p class="copy-status" aria-live="polite"></p>
+      </div>
+      <aside class="notice notice-info reveal"><strong>¿Descargaste un ejecutable?</strong><p>Consulta GitHub para descargar la versión más reciente cuando esté disponible.</p><a class="text-link" href="https://github.com/muirsuelen27-pixel/Web__Scanner">Consultar el repositorio oficial <span aria-hidden="true">↗</span></a></aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><div class="footer-brand"><a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 35 11v18L20 37 5 29V11z"></path><path d="M13 20h14M20 13v14"></path><circle cx="20" cy="20" r="3"></circle></svg><span>WEB SCANNER</span></a><p>Auditoría defensiva. Evidencia clara. Control local.</p></div><nav class="footer-navigation" aria-label="Enlaces del pie de página"><a href="index.html">Inicio</a><a href="descargas.html">Descargas</a><a href="documentacion.html">Documentación</a><a href="licencia.html">Licencia</a><a href="terminos.html">Términos de uso</a><a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a></nav></div>
+    <div class="container footer-bottom"><span>© <span data-current-year>2026</span> Web Scanner</span><span>Uso exclusivo para auditorías autorizadas.</span><span class="footer-attribution">Las redistribuciones deben conservar los créditos de Web Scanner.</span><a href="licencia.html">Licencia</a></div>
+  </footer>
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Volver arriba"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 12 6-6 6 6"></path></svg></button>
+</body>
+</html>

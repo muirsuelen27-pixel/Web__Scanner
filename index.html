@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Scanner es una aplicación de escritorio y CLI para auditorías web defensivas, autorizadas y de bajo impacto.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Web Scanner — Auditoría web defensiva</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 3 35 11v18L20 37 5 29V11z' fill='none' stroke='%234bd8e8' stroke-width='2'/%3E%3Cpath d='M13 20h14M20 13v14' stroke='%234bd8e8' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Web Scanner, inicio">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <path d="M20 3 35 11v18L20 37 5 29V11z"></path>
+          <path d="M13 20h14M20 13v14"></path>
+          <circle cx="20" cy="20" r="3"></circle>
+        </svg>
+        <span>WEB SCANNER</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menú de navegación">
+        <span></span><span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" aria-current="location">Inicio</a></li>
+          <li><a href="#caracteristicas">Características</a></li>
+          <li><a href="descargas.html">Descargas</a></li>
+          <li><a href="documentacion.html">Documentación</a></li>
+          <li><a href="actualizaciones.html">Actualizaciones</a></li>
+          <li><a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a></li>
+        </ul>
+        <a class="button button-small button-primary nav-download" href="descargas.html">Descargar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-grid" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy container">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AUDITORÍA DEFENSIVA <span aria-hidden="true">·</span> LOCAL-FIRST</p>
+        <h1 id="hero-title">Auditoría web defensiva, <span class="text-accent">clara y local.</span></h1>
+        <p class="hero-description">Revisa DNS, HTTP, cabeceras de seguridad y TLS desde una interfaz de escritorio moderna.</p>
+        <p class="authorization-note">
+          <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="M10 2.5 17 5v4.7c0 4.1-2.8 6.7-7 8.3-4.2-1.6-7-4.2-7-8.3V5z"></path><path d="m7 10 2 2 4-4"></path></svg>
+          Solo para sistemas propios o con autorización explícita.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="descargas.html">Descargar para Windows <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="https://github.com/muirsuelen27-pixel/Web__Scanner">Ver en GitHub</a>
+          <a class="text-link" href="documentacion.html">Leer documentación <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="module-strip" aria-label="Módulos disponibles">
+          <span><i aria-hidden="true"></i>DNS</span>
+          <span><i aria-hidden="true"></i>HTTP</span>
+          <span><i aria-hidden="true"></i>Headers</span>
+          <span><i aria-hidden="true"></i>TLS</span>
+        </div>
+      </div>
+      <figure class="hero-visual container reveal">
+        <div class="image-frame hero-image-frame" data-image-frame>
+          <!-- Reemplaza esta captura por una imagen de demostración sin datos privados. -->
+          <img src="assets/images/dashboard-preview.png" alt="Panel de Web Scanner con módulos de revisión, métricas y resultados de un análisis de demostración" width="1437" height="932" fetchpriority="high">
+          <span class="image-fallback" aria-hidden="true">Vista previa del panel de análisis</span>
+          <span class="frame-label">VISTA DEL PRODUCTO <span>01 / 04</span></span>
+        </div>
+        <figcaption class="hero-caption"><span>01</span> Interfaz local · Resultados basados en evidencia</figcaption>
+      </figure>
+    </section>
+
+    <section class="content-section container" id="caracteristicas" aria-labelledby="features-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MÓDULOS DE REVISIÓN</p>
+        <h2 id="features-title">Una lectura clara de la superficie web.</h2>
+        <p>Comprobaciones observacionales y de bajo impacto para sistemas dentro de tu alcance autorizado.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M4.5 9h15M4.5 15h15M12 4c2 2.2 3 4.9 3 8s-1 5.8-3 8c-2-2.2-3-4.9-3-8s1-5.8 3-8Z"></path></svg></span>
+          <p class="eyebrow">01 / NOMBRE Y RESOLUCIÓN</p>
+          <h3>DNS</h3>
+          <p>Consulta información pública asociada al dominio y presenta las respuestas observadas.</p>
+          <span class="feature-detail">Registros y resolución visible</span>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 9h16"></path><path d="M7 7h.01M10 7h.01M7 13h4M7 16h7"></path></svg></span>
+          <p class="eyebrow">02 / RESPUESTA DEL SERVIDOR</p>
+          <h3>HTTP</h3>
+          <p>Revisa respuestas, redirecciones e indicadores visibles de la infraestructura web.</p>
+          <span class="feature-detail">Estado y recorrido de respuesta</span>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h5M8 16h7"></path><path d="m15 12 1.5 1.5L19 11"></path></svg></span>
+          <p class="eyebrow">03 / CONFIGURACIÓN WEB</p>
+          <h3>Headers</h3>
+          <p>Identifica cabeceras de seguridad observadas o ausentes en las respuestas revisadas.</p>
+          <span class="feature-detail">Cabeceras HTTP configurables</span>
+        </article>
+        <article class="feature-card reveal">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 20 6v5.5c0 4.5-3 7.6-8 9.5-5-1.9-8-5-8-9.5V6z"></path><path d="m8.5 12 2.2 2.2 4.8-5"></path></svg></span>
+          <p class="eyebrow">04 / TRANSPORTE CIFRADO</p>
+          <h3>TLS</h3>
+          <p>Resume información observable del certificado y de la conexión de transporte.</p>
+          <span class="feature-detail">Certificado y conexión TLS</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="evidence-section" aria-labelledby="evidence-title">
+      <div class="container evidence-layout">
+        <div class="evidence-copy reveal">
+          <p class="eyebrow">EVIDENCIA ANTES QUE SUPOSICIONES</p>
+          <h2 id="evidence-title">Cada resultado explica qué se observó.</h2>
+          <p>Los hallazgos reúnen los datos necesarios para revisar una señal técnica: evidencia, severidad, confianza, estado y recomendación. Conserva el contexto y valida cada resultado antes de priorizar cambios.</p>
+          <p class="evidence-caveat"><strong>Una observación no confirma por sí sola una vulnerabilidad.</strong></p>
+          <a class="text-link" href="documentacion.html#interpretacion">Cómo interpretar los resultados <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="data-panel reveal" aria-label="Ejemplo de información de un hallazgo observado">
+          <div class="data-panel-header"><span>DETALLE DEL HALLAZGO</span><span class="panel-indicator">EJEMPLO</span></div>
+          <div class="data-row"><span>ESTADO</span><strong><i class="state-mark" aria-hidden="true"></i> Observed</strong></div>
+          <div class="data-row"><span>SEVERIDAD</span><strong class="severity-label">LOW</strong></div>
+          <div class="data-row"><span>CONFIANZA</span><strong>HIGH</strong></div>
+          <div class="data-evidence"><span>EVIDENCIA</span><p>Respuesta HTTP recibida y revisada durante la comprobación.</p></div>
+          <div class="data-recommendation"><span>RECOMENDACIÓN</span><p>Verifica la configuración en el contexto de la aplicación y su política de seguridad.</p></div>
+          <div class="panel-footnote"><span aria-hidden="true">↳</span> Una señal para revisión; no un diagnóstico automático.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section container" aria-labelledby="screenshots-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">RECORRIDO DEL PRODUCTO</p>
+        <h2 id="screenshots-title">Del análisis al informe.</h2>
+        <p>Abre cada captura para verla con más detalle. Las imágenes se cargan desde el proyecto.</p>
+      </div>
+      <div class="screenshot-grid">
+        <button class="shot-card reveal" type="button" data-image-dialog data-image-src="assets/images/analysis-panel.png" data-image-alt="Panel de análisis con objetivo autorizado, módulos disponibles y avance de la revisión" aria-label="Ampliar captura: Panel de análisis">
+          <span class="image-frame shot-image" data-image-frame>
+            <!-- Reemplaza con una captura de demostración sin datos privados. -->
+            <img src="assets/images/analysis-panel.png" alt="Panel de análisis completado con métricas, módulos revisados, hallazgos y detalle de evidencia" width="1435" height="923" loading="lazy">
+            <span class="image-fallback" aria-hidden="true">Captura del análisis</span>
+            <span class="shot-number">01</span>
+          </span>
+          <span class="shot-copy"><span><strong>Panel de análisis</strong><small>Objetivo, módulos y progreso en una sola vista.</small></span><span class="shot-open" aria-hidden="true">↗</span></span>
+        </button>
+        <button class="shot-card reveal" type="button" data-image-dialog data-image-src="assets/images/findings.png" data-image-alt="Tabla de hallazgos con estado, severidad, confianza y recomendación" aria-label="Ampliar captura: Hallazgos y recomendaciones">
+          <span class="image-frame shot-image" data-image-frame>
+            <!-- Reemplaza con una captura de demostración sin datos privados. -->
+            <img src="assets/images/findings.png" alt="Detalle ampliado de la tabla de hallazgos con severidad, confianza y estado observado" width="762" height="366" loading="lazy">
+            <span class="image-fallback" aria-hidden="true">Captura de hallazgos</span>
+            <span class="shot-number">02</span>
+          </span>
+          <span class="shot-copy"><span><strong>Hallazgos y recomendaciones</strong><small>Evidencia legible para orientar la revisión.</small></span><span class="shot-open" aria-hidden="true">↗</span></span>
+        </button>
+        <button class="shot-card reveal" type="button" data-image-dialog data-image-src="assets/images/history.png" data-image-alt="Historial local de análisis con informes guardados y opciones de exportación" aria-label="Ampliar captura: Historial e informes">
+          <span class="image-frame shot-image" data-image-frame>
+            <!-- Reemplaza con una captura de demostración sin datos privados. -->
+            <img src="assets/images/history.png" alt="Historial local de análisis con informes guardados y opciones de exportación" width="1437" height="927" loading="lazy">
+            <span class="image-fallback" aria-hidden="true">Captura del historial</span>
+            <span class="shot-number">03</span>
+          </span>
+          <span class="shot-copy"><span><strong>Historial e informes</strong><small>Consulta y exporta resultados guardados localmente.</small></span><span class="shot-open" aria-hidden="true">↗</span></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="getting-started" aria-labelledby="getting-started-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">UN FLUJO SENCILLO</p>
+          <h2 id="getting-started-title">Cómo empezar</h2>
+          <p>Un proceso breve, siempre dentro del alcance autorizado.</p>
+        </div>
+        <ol class="steps-grid">
+          <li class="step-card reveal"><span class="step-index">01</span><h3>Instala la aplicación</h3><p>Elige una descarga disponible o instala desde el código fuente.</p></li>
+          <li class="step-card reveal"><span class="step-index">02</span><h3>Abre Web Scanner</h3><p>Inicia la interfaz de escritorio o utiliza la CLI.</p></li>
+          <li class="step-card reveal"><span class="step-index">03</span><h3>Escribe una URL autorizada</h3><p>Confirma el objetivo y el alcance antes de iniciar.</p></li>
+          <li class="step-card reveal"><span class="step-index">04</span><h3>Revisa y exporta resultados</h3><p>Valida la evidencia y guarda el informe de forma segura.</p></li>
+        </ol>
+        <a class="button button-secondary reveal" href="descargas.html">Ver opciones de instalación <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="responsible-section container" aria-labelledby="responsible-title">
+      <div class="responsible-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M16 3 28 7.5v8.2c0 6.2-4.5 10.7-12 13.3C8.5 26.4 4 21.9 4 15.7V7.5z"></path><path d="M16 10v7M16 22h.01"></path></svg>
+      </div>
+      <div>
+        <p class="eyebrow">ALCANCE Y RESPONSABILIDAD</p>
+        <h2 id="responsible-title">La autorización es el punto de partida.</h2>
+        <p>No analices sistemas sin permiso. No uses la herramienta para evadir controles ni para obtener acceso indebido. Mantén cada comprobación dentro del alcance acordado.</p>
+        <a class="text-link" href="terminos.html">Leer términos de uso <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="community-section" aria-labelledby="community-title">
+      <div class="container community-layout reveal">
+        <div>
+          <p class="eyebrow">CÓDIGO ABIERTO A LA REVISIÓN</p>
+          <h2 id="community-title">Construido para entender lo que se observa.</h2>
+          <p>Consulta el código fuente, las instrucciones del proyecto y las condiciones de uso.</p>
+        </div>
+        <div class="community-actions">
+          <a class="button button-primary" href="https://github.com/muirsuelen27-pixel/Web__Scanner">Ver el repositorio <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="documentacion.html">Documentación</a>
+          <a class="text-link" href="licencia.html">Licencia y atribución</a>
+        </div>
+        <p class="community-note">Las redistribuciones deben conservar créditos a Web Scanner. Esta versión no puede comercializarse sin autorización.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="index.html" aria-label="Web Scanner, inicio">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3 35 11v18L20 37 5 29V11z"></path><path d="M13 20h14M20 13v14"></path><circle cx="20" cy="20" r="3"></circle></svg>
+          <span>WEB SCANNER</span>
+        </a>
+        <p>Auditoría defensiva. Evidencia clara. Control local.</p>
+      </div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página">
+        <a href="index.html">Inicio</a>
+        <a href="descargas.html">Descargas</a>
+        <a href="documentacion.html">Documentación</a>
+        <a href="actualizaciones.html">Actualizaciones</a>
+        <a href="licencia.html">Licencia</a>
+        <a href="terminos.html">Términos de uso</a>
+        <a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-current-year>2026</span> Web Scanner</span>
+      <span>Uso exclusivo para auditorías autorizadas.</span>
+      <span class="footer-attribution">Las redistribuciones deben conservar los créditos de Web Scanner.</span>
+      <a href="licencia.html">Licencia</a>
+    </div>
+  </footer>
+
+  <dialog class="image-dialog" id="image-dialog" aria-labelledby="image-dialog-title">
+    <div class="dialog-toolbar">
+      <p id="image-dialog-title">Captura de Web Scanner</p>
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Cerrar vista ampliada">Cerrar <span aria-hidden="true">×</span></button>
+    </div>
+    <img class="dialog-image" src="assets/images/analysis-panel.png" alt="Captura ampliada del panel de análisis de Web Scanner" width="1435" height="923" loading="lazy">
+  </dialog>
+
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Volver arriba">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 12 6-6 6 6"></path></svg>
+  </button>
+</body>
+</html>

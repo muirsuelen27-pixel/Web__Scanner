@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descarga Web Scanner o instálalo con Python en Windows, Linux y macOS.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Descargas — Web Scanner</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 3 35 11v18L20 37 5 29V11z' fill='none' stroke='%234bd8e8' stroke-width='2'/%3E%3Cpath d='M13 20h14M20 13v14' stroke='%234bd8e8' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="index.html" aria-label="Web Scanner, inicio">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3 35 11v18L20 37 5 29V11z"></path><path d="M13 20h14M20 13v14"></path><circle cx="20" cy="20" r="3"></circle></svg>
+        <span>WEB SCANNER</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menú de navegación"><span></span><span></span></button>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li><li><a href="index.html#caracteristicas">Características</a></li>
+          <li><a href="descargas.html" aria-current="page">Descargas</a></li><li><a href="documentacion.html">Documentación</a></li>
+          <li><a href="actualizaciones.html">Actualizaciones</a></li><li><a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a></li>
+        </ul>
+        <a class="button button-small button-primary nav-download" href="descargas.html">Descargar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main container" id="contenido">
+    <header class="page-intro reveal">
+      <p class="eyebrow">INSTALACIÓN Y DISTRIBUCIÓN</p>
+      <h1>Descarga Web Scanner</h1>
+      <p>Aplicación para auditorías web defensivas y de bajo impacto; úsala solo con autorización explícita.</p>
+    </header>
+
+    <section aria-labelledby="download-options-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ELIGE TU PLATAFORMA</p>
+        <h2 id="download-options-title">Opciones disponibles</h2>
+      </div>
+      <div class="download-grid">
+        <article class="download-card reveal">
+          <span class="download-platform">01 / WINDOWS</span>
+          <h3>Windows</h3>
+          <p>El instalador oficial aún no está publicado. Puedes preparar la aplicación desde el código fuente con Python.</p>
+          <span class="availability">Próximamente</span>
+          <button class="button button-disabled" type="button" disabled aria-describedby="windows-download-note" title="El instalador de Windows aún no está disponible">Descarga no disponible</button>
+          <small id="windows-download-note">No hay un ejecutable oficial disponible todavía.</small>
+          <!-- Añade aquí un enlace únicamente cuando exista un instalador oficial verificado. -->
+        </article>
+        <article class="download-card reveal">
+          <span class="download-platform">02 / LINUX</span>
+          <h3>Linux</h3>
+          <p>Instala la versión Python en un entorno virtual aislado. Se requiere Python 3.10 o posterior.</p>
+          <span class="availability availability-ready">Instalación desde código</span>
+          <a class="text-link" href="#instalacion-python">Ver comandos de instalación <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="download-card reveal">
+          <span class="download-platform">03 / MACOS</span>
+          <h3>macOS</h3>
+          <p>Utiliza Python y un entorno virtual para instalar la aplicación desde el repositorio.</p>
+          <span class="availability availability-ready">Instalación desde código</span>
+          <a class="text-link" href="#instalacion-python">Ver comandos de instalación <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="download-card download-source reveal">
+          <span class="download-platform">04 / CÓDIGO</span>
+          <h3>Código fuente</h3>
+          <p>Consulta la implementación, la licencia y las instrucciones de instalación en el repositorio oficial.</p>
+          <span class="availability availability-ready">Repositorio público</span>
+          <a class="button button-secondary" href="https://github.com/muirsuelen27-pixel/Web__Scanner">Abrir en GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section" id="instalacion-python" aria-labelledby="python-install-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">INSTALACIÓN DESDE EL CÓDIGO</p>
+        <h2 id="python-install-title">Instalación con Python</h2>
+        <p>Necesitas Python 3.10 o superior, Git para clonar el repositorio y acceso a la red para instalar dependencias.</p>
+      </div>
+      <ol class="install-steps reveal">
+        <li><span>01</span>Instala Python 3.10 o superior.</li>
+        <li><span>02</span>Clona o descarga el repositorio oficial.</li>
+        <li><span>03</span>Abre la carpeta <code>scanner</code>, que contiene el proyecto instalable.</li>
+        <li><span>04</span>Crea y activa un entorno virtual.</li>
+        <li><span>05</span>Instala Web Scanner y sus dependencias.</li>
+        <li><span>06</span>Inicia la interfaz con <code>web-scanner --gui</code>.</li>
+      </ol>
+      <div class="code-grid">
+        <article class="code-card reveal">
+          <div class="code-heading"><h3>Windows PowerShell</h3><button class="copy-button" type="button" data-copy-command data-copy-target="windows-install-command"><span aria-hidden="true">⧉</span> Copiar comando</button></div>
+          <pre><code id="windows-install-command">python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -e .
+web-scanner --gui</code></pre>
+          <p class="copy-status" aria-live="polite"></p>
+        </article>
+        <article class="code-card reveal">
+          <div class="code-heading"><h3>Linux y macOS</h3><button class="copy-button" type="button" data-copy-command data-copy-target="unix-install-command"><span aria-hidden="true">⧉</span> Copiar comando</button></div>
+          <pre><code id="unix-install-command">python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -e .
+web-scanner --gui</code></pre>
+          <p class="copy-status" aria-live="polite"></p>
+        </article>
+      </div>
+      <aside class="notice notice-info">
+        <strong>Ubicación del proyecto</strong>
+        <p>Ejecuta estos comandos desde la carpeta <code>scanner</code> del repositorio. En Windows, si PowerShell bloquea la activación del entorno, consulta las instrucciones de la <a href="documentacion.html#interfaz">documentación</a>.</p>
+      </aside>
+    </section>
+
+    <section class="content-section" aria-labelledby="requirements-title">
+      <div class="section-heading reveal"><p class="eyebrow">ANTES DE INSTALAR</p><h2 id="requirements-title">Requisitos</h2></div>
+      <ul class="requirements-list reveal">
+        <li><strong>Python 3.10+</strong><span>Requerido para la aplicación y su CLI.</span></li>
+        <li><strong>PySide6</strong><span>Dependencia de la interfaz gráfica Python.</span></li>
+        <li><strong>ReportLab</strong><span>Opcional; permite generar informes PDF. Instálalo con <code>python -m pip install -e ".[reports]"</code>.</span></li>
+        <li><strong>Qt 6, CMake y compilador C++</strong><span>Solo necesarios para compilar la interfaz nativa C++/Qt.</span></li>
+        <li><strong>Conexión a internet</strong><span>Necesaria para consultar los objetivos autorizados y descargar dependencias.</span></li>
+      </ul>
+    </section>
+
+    <section class="content-section faq-section" aria-labelledby="faq-title">
+      <div class="section-heading reveal"><p class="eyebrow">RESPUESTAS RÁPIDAS</p><h2 id="faq-title">Preguntas frecuentes</h2></div>
+      <details class="faq-item reveal"><summary>¿Necesito una clave de IA?</summary><p>No. La IA es opcional. Gemini requiere configurar una clave; Ollama puede usarse localmente si está instalado y disponible.</p></details>
+      <details class="faq-item reveal"><summary>¿Dónde se guardan los informes?</summary><p>El historial se guarda localmente en <code>.scanner/history</code>; su ubicación depende del directorio de trabajo desde el que se inicia la aplicación. Los archivos exportados se guardan en la ruta que elijas.</p></details>
+      <details class="faq-item reveal"><summary>¿Puedo analizar cualquier sitio?</summary><p>No. Analiza únicamente sistemas propios o para los que tengas autorización explícita, y respeta el alcance acordado.</p></details>
+      <details class="faq-item reveal"><summary>¿Cómo actualizo?</summary><p>Si instalaste desde el repositorio, consulta las instrucciones en <a href="actualizaciones.html">Actualizaciones</a>. Las descargas binarias oficiales se anunciarán cuando estén disponibles.</p></details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 35 11v18L20 37 5 29V11z"></path><path d="M13 20h14M20 13v14"></path><circle cx="20" cy="20" r="3"></circle></svg><span>WEB SCANNER</span></a><p>Auditoría defensiva. Evidencia clara. Control local.</p></div>
+      <nav class="footer-navigation" aria-label="Enlaces del pie de página"><a href="index.html">Inicio</a><a href="documentacion.html">Documentación</a><a href="actualizaciones.html">Actualizaciones</a><a href="licencia.html">Licencia</a><a href="terminos.html">Términos de uso</a><a href="https://github.com/muirsuelen27-pixel/Web__Scanner">GitHub</a></nav>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-current-year>2026</span> Web Scanner</span><span>Uso exclusivo para auditorías autorizadas.</span><span class="footer-attribution">Las redistribuciones deben conservar los créditos de Web Scanner.</span><a href="licencia.html">Licencia</a></div>
+  </footer>
+  <button class="back-to-top" type="button" data-back-to-top aria-label="Volver arriba"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 12 6-6 6 6"></path></svg></button>
+</body>
+</html>
