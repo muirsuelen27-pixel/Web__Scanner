@@ -1,0 +1,5 @@
+QPushButton#primaryButton { background: #4F46E5; border-color: #818CF8; }
+QPushButton#primaryButton:hover { background: #818CF8; border-color: #C7D2FE; color: #10102A; }
+QPushButton#navButton:checked { border-left: 3px solid #818CF8; }
+#sidebarIndicator { background: #818CF8; }
+QLineEdit:focus, QDoubleSpinBox:focus, QSpinBox:focus, QComboBox:focus { border-color: #818CF8; }

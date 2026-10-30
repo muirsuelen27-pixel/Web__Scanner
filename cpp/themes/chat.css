@@ -1,0 +1,11 @@
+div.bubble {
+  color: #F8FAFC;
+  background-color: #18283B;
+  border: 1px solid #31516C;
+  padding: 13px 16px;
+  border-radius: 14px;
+  margin: 10px 3px;
+}
+div.userBubble {
+  background-color: #163B52;
+}

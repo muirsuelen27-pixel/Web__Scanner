@@ -1,0 +1,2 @@
+# Optional PDF export support.
+reportlab>=4.0,<5

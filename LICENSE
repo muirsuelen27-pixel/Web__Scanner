@@ -1,0 +1,30 @@
+Web Scanner Community License v2.0
+
+Copyright (c) 2026 Web Scanner contributors. All rights reserved except as
+expressly granted below.
+
+Permission is granted to use, study, and share unmodified copies of this
+version of Web Scanner for personal, educational, research, and internal
+authorized-security-audit purposes, provided that this copyright notice, this
+license, and visible attribution to "Web Scanner" are retained.
+
+You may modify this software for your own authorized use. You may distribute a
+modified version only when it: (a) gives clear, visible credit to Web Scanner
+and links to its original repository; (b) identifies the changes made; (c)
+includes this license and all notices; and (d) is distributed at no charge.
+
+Commercial sale, paid distribution, paid access, resale, sublicensing, or
+including this software in a product or service for which a fee is charged is
+prohibited without prior written permission from the copyright holders.
+
+This software may be used only against systems for which the user has explicit
+authorization. It is provided "AS IS", without warranties of any kind. The
+authors are not liable for damage, data loss, service interruption, or unlawful
+or unauthorized use.
+
+Important historical-license notice
+-----------------------------------
+This license applies to the v2 code and documentation distributed with it only,
+to the extent that the relevant copyright holders may apply it. It does not
+revoke, replace, or restrict rights already granted for the earlier public
+Apache-2.0 release. Any third-party code remains governed by its own license.

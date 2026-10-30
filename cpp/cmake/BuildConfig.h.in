@@ -1,0 +1,3 @@
+#pragma once
+
+#define WEB_SCANNER_SOURCE_ROOT "@CMAKE_CURRENT_SOURCE_DIR@/../.."

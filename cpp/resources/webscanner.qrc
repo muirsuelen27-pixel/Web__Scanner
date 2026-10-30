@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/assets">
+    <file alias="logo.svg">../assets/logo.svg</file>
+    <file alias="icons/analysis.svg">../assets/icons/analysis.svg</file>
+    <file alias="icons/history.svg">../assets/icons/history.svg</file>
+    <file alias="icons/karen.svg">../assets/icons/karen.svg</file>
+    <file alias="icons/settings.svg">../assets/icons/settings.svg</file>
+    <file alias="icons/export.svg">../assets/icons/export.svg</file>
+    <file alias="icons/delete.svg">../assets/icons/delete.svg</file>
+    <file alias="icons/refresh.svg">../assets/icons/refresh.svg</file>
+    <file alias="icons/search.svg">../assets/icons/search.svg</file>
+    <file alias="icons/technology.svg">../assets/icons/technology.svg</file>
+  </qresource>
+  <qresource prefix="/themes">
+    <file alias="dark.qss">../themes/dark.qss</file>
+    <file alias="light.qss">../themes/light.qss</file>
+    <file alias="accent-cyan.qss">../themes/accent-cyan.qss</file>
+    <file alias="accent-indigo.qss">../themes/accent-indigo.qss</file>
+    <file alias="accent-emerald.qss">../themes/accent-emerald.qss</file>
+    <file alias="chat.css">../themes/chat.css</file>
+  </qresource>
+</RCC>
