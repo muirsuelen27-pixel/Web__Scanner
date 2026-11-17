@@ -111,7 +111,7 @@ puedes ayudar de varias formas:
 Para contribuir mediante Pull Request:
 
 ```bash
-git clone https://github.com/Tmuirsuelen27-pixel/Web__Scanner.git
+git clone https://github.com/muirsuelen27-pixel/Web__Scanner.git
 cd Web__Scanner
 git checkout -b mejora/nombre-de-la-mejora
 
@@ -131,5 +131,3 @@ no introducir técnicas de evasión y explicar qué cambió y cómo se probó.
 Las ideas especialmente útiles incluyen pruebas automatizadas, reducción de
 falsos positivos, soporte para más plataformas, mejores firmas tecnológicas,
 análisis TLS más preciso y reportes más claros.
-
-
